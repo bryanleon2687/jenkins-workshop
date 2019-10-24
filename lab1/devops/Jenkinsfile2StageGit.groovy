@@ -1,14 +1,14 @@
 
 node{
-    withEnv(['ENV_CREDENTIALS=global-github-opando']) {
-        stage("init"){
-            
-            echo "TODO"
-            
+    withEnv(["ENV_CLIENTID=12345677-123456-123456"]){
+    stage("init"){ 
+        echo "${ENV_CLIENTID}"
+    }
+    }
 
-        }
-        stage("checkout"){
-            
-        }
+
+    stage("checkout"){
+        println "TODO"
+
     }
 }
