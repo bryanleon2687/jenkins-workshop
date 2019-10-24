@@ -18,7 +18,7 @@ node{
             url: "https://github.com/bryanleon2687/aks-rbac-example.git"
         )
 
-        sh "ls-lta"
+        sh "ls- lta"
 
 
     }
