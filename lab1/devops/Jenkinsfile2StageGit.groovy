@@ -14,7 +14,7 @@ node{
         
         git{
             branch : "master",
-            credentialsId: "github"
+            credentialsId: "github",
             url: "https://github.com/bryanleon2687/aks-rbac-example.git"
         }
 
