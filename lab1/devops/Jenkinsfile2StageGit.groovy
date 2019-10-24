@@ -15,7 +15,7 @@ node{
         git{
             branch : "master",
             credentialsId: "github"
-            url: "https://github.com/bryanleon2687/aks-rbac-example"
+            url: "https://github.com/bryanleon2687/aks-rbac-example.git"
         }
 
         sh "ls-lta"
