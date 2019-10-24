@@ -13,7 +13,7 @@ node{
         println "==== TODO ===="
         
         git{
-            branch : master,
+            branch : "master",
             credentialsId: "github"
             url: "https://github.com/bryanleon2687/aks-rbac-example"
         }
