@@ -11,6 +11,17 @@ node{
 
     stage("checkout"){
         println "==== TODO ===="
-        sh "printenv"
+        
+        git{
+            branch : master,
+            credentialsId: "github"
+            url: "https://github.com/bryanleon2687/aks-rbac-example"
+        }
+
+        sh "ls-lta"
+
+
     }
 }
+
+//git add .
