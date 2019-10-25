@@ -18,8 +18,3 @@ node{
 
     }
 }
-
-/*
-password2257|bleon@outlook.com|textsecretp
-
-/*
