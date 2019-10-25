@@ -3,8 +3,8 @@ node{
     stage("init"){
 
     }
-    stage("checkou"){
-        withCredentials([string(credentialsId:"bleon-token",variable:"token1")]){
+    stage("checkout"){
+        withCredentials([string(credentialsId:"bleon-token",variable:'token1')]){
             echo "${token1}"
 
             tokentmp = token1.split('\\|')
